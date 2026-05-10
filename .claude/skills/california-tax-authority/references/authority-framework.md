@@ -52,11 +52,17 @@ Apply `Rank 0` first, then rank by `1 -> 12`.
 | C6 | BOE precedential opinions still in force/relevance |
 | C7 | FTB Legal Rulings |
 | C8 | FTB Notices |
-| C9 | FTB Chief Counsel Rulings (fact-specific) |
-| C10 | FTB forms/instructions/publications (including Pub 1001, Schedule CA instructions) |
+| C9 | FTB Chief Counsel Rulings, fact-specific and generally nonprecedential |
+| C10 | FTB forms/instructions/publications, including 540NR Booklet, Schedule CA instructions, Schedule R instructions, Pub 1001, Pub 1004, Pub 1031, and Pub 1100 |
 | C11 | OTA nonprecedential opinions |
-| C12 | FTB webpages/FAQs/Tax News |
+| C12 | FTB webpages/FAQs/Tax News, including current practical examples |
 | C13 | Commentary |
+
+Important caution for C10-C12:
+
+- These materials are generally not controlling legal authority.
+- However, current FTB forms, instructions, publications, and webpages may be highly relevant practical guidance, especially when they directly address the taxpayer’s exact fact pattern.
+- If current FTB practical guidance conflicts with a broad generalization derived from older or less-specific authority, state the tension and avoid an overconfident filing-position conclusion.
 
 ## 4) California Sales/Use (CDTFA) Ladder
 
@@ -249,14 +255,21 @@ Composite score guideline:
 8. Commentary
 
 ### California residency / sourcing
-1. RTC
-2. CCR Title 18
-3. CA published cases
-4. OTA precedential opinions
-5. FTB Legal Ruling / Notice
-6. FTB publications / 540NR instructions
-7. OTA nonprecedential opinions
-8. Commentary
+
+1. RTC residency and nonresident sourcing provisions.
+2. CCR Title 18 regulations, especially rules applicable to nonresident income and business/apportionment.
+3. Current FTB residency and nonresident guidance, including current “Leaving California” scenarios.
+4. Current FTB form instructions and publications, including 540NR Booklet, Schedule R instructions, Pub 1004, Pub 1031, and Pub 1100 as applicable.
+5. CA Supreme Court and published Court of Appeal cases.
+6. OTA precedential opinions.
+7. FTB Legal Rulings / Notices.
+8. FTB Chief Counsel Rulings, labeled as fact-specific or nonprecedential where applicable.
+9. OTA nonprecedential opinions, labeled as nonprecedential.
+10. Commentary.
+
+Special rule:
+
+For independent contractor / sole proprietor / Schedule C service-income sourcing, current FTB practical guidance must be checked before finalizing the answer. If the fact pattern matches FTB’s independent contractor/sole proprietor customer-benefit scenario, the answer must address that guidance directly.
 
 ### FTB notice response
 1. RTC
@@ -295,6 +308,141 @@ Composite score guideline:
 5. Forms/instructions
 6. FAQs/webpages
 7. Commentary
+
+## 13A) California Residency / Sourcing Decision Tree
+
+Use this decision tree for California nonresident and part-year resident questions.
+
+### Step 1: Separate residency from sourcing
+
+Always separate:
+
+1. Residency/domicile:
+   - Is the taxpayer a California resident, part-year resident, or nonresident?
+   - California residents are generally taxed on worldwide income.
+   - Part-year residents are generally taxed on worldwide income during the resident period and California-source income during the nonresident period.
+
+2. Source income:
+   - If the taxpayer is a nonresident, does the income have a California source?
+
+3. Filing obligation:
+   - If there is California-source income or part-year resident income, determine whether a California return is required.
+
+4. Apportionment/allocation:
+   - If income is from a business, trade, or profession conducted within and outside California, consider Schedule R and apportionment/allocation rules.
+
+### Step 2: Classify the taxpayer role
+
+Classify the income recipient before applying any service-income sourcing rule:
+
+- W-2 employee
+- Independent contractor
+- Sole proprietor / Schedule C business
+- Pass-through entity owner
+- Corporation or other entity
+- Investor receiving intangible income
+- Real-property owner
+- Deferred/equity compensation recipient
+
+### Step 3: Apply the correct service-income rule
+
+#### W-2 employee compensation
+
+For a nonresident W-2 employee, California generally sources wage compensation to California to the extent the employee physically performs services in California.
+
+If the employee performs all post-move services outside California, the wage income is generally not California-source, subject to special rules such as deferred or equity-based compensation.
+
+#### Independent contractor / sole proprietor service income
+
+For a nonresident independent contractor or sole proprietor, do not automatically apply the W-2 employee workday rule.
+
+Current FTB guidance states that California-source income for independent contractors/sole proprietors is determined by where the customer receives the benefit of the service. The contractor’s work location is not a factor.
+
+Therefore:
+
+- California customer receives benefit in California -> possible or likely California-source income.
+- Non-California customer receives benefit outside California -> generally weaker California-source position.
+- Mixed customer benefit locations -> analyze apportionment/allocation and customer-level sourcing.
+- Unclear benefit location -> ask for facts or state uncertainty.
+
+#### Trade or business inside and outside California
+
+For a nonresident individual operating a trade or business inside and outside California, check Schedule R instructions and CCR Title 18 section 17951-4.
+
+If the activity is an apportioning trade or business, analyze whether California-source income is determined using apportionment and market-assignment rules.
+
+### Step 4: Apply mandatory caveats
+
+For California nonresident service-income questions, always check:
+
+- whether the taxpayer actually changed domicile/residency
+- whether the taxpayer was a part-year resident in the move year
+- whether any workdays occurred in California
+- whether the business has California property, payroll, employees, contractors, agents, or offices
+- whether the income is pass-through income
+- whether the income is tied to California real property
+- whether the income is deferred compensation or equity-based compensation
+- whether the taxpayer has California withholding or estimated tax obligations
+
+## 13B) California Nonresident Sole Proprietor / Independent Contractor Guardrail
+
+This is a hard guardrail.
+
+If the question includes all or most of these facts:
+
+- taxpayer moved out of California
+- taxpayer claims nonresident status
+- taxpayer is a sole proprietor, independent contractor, self-employed consultant, freelancer, or Schedule C business
+- taxpayer performs services remotely from another state
+- taxpayer has California customers or clients
+
+Then do not answer:
+
+> The income is not California-source because the services are performed outside California.
+
+Instead, answer with this structure:
+
+1. Start with a cautious conclusion:
+   - “Possibly yes.”
+   - “California may still treat the income as California-source.”
+   - “Physical work location alone is not dispositive for a sole proprietor or independent contractor.”
+
+2. Explain the FTB customer-benefit rule:
+   - Current FTB guidance for independent contractors/sole proprietors looks to where the customer receives the benefit of the service.
+   - The contractor’s work location is not a factor under that guidance.
+
+3. Apply the facts:
+   - If California clients receive the benefit in California, California-source income risk is significant.
+   - If the benefit is received outside California, the California-source case is weaker.
+   - If benefit location is mixed or unclear, recommend customer-by-customer or receipts-based analysis.
+
+4. Separate residency:
+   - If the taxpayer remains a California resident, California may tax worldwide income regardless of sourcing.
+   - If the taxpayer is a bona fide nonresident, only California-source income is at issue.
+
+5. Discuss filing:
+   - Nonresident sole proprietors with California-source income may need Form 540NR.
+   - If the business has income/loss inside and outside California, Schedule R may be required.
+
+6. Risk conclusion:
+   - “Low” only if no California customer benefit, no California workdays, no California business presence, and strong nonresident facts.
+   - “Medium” if California customers receive benefit in California but facts are otherwise clean.
+   - “High” if residency is weak, work occurs in California, or California business presence exists.
+  
+## 13C) Case-Law Caution: Do Not Overread Valentino
+
+Do not cite Valentino v. Franchise Tax Board as controlling authority for the broad proposition that a nonresident sole proprietor’s service income is sourced only where the services are physically performed.
+
+Use Valentino cautiously.
+
+Valentino involved California taxation of income passed through from an S corporation to a nonresident shareholder. It may be relevant to pass-through entity sourcing issues, but it should not be the primary authority for a Schedule C sole proprietor remote-service fact pattern.
+
+If Valentino is cited:
+
+- identify the actual taxpayer structure
+- explain the pass-through context
+- do not use it to override current FTB guidance for independent contractors/sole proprietors
+- do not present it as a clean “physical performance controls” rule for sole proprietors
 
 ## 14) Citation Label Set for UI/Output
 
