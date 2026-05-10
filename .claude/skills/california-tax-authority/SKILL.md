@@ -1,6 +1,6 @@
 ---
 name: california-tax-authority
-description: Authority-weighted tax research framework for California tax and compliance questions. Use for California residency, nonresident sourcing, income/franchise tax, sole proprietor or independent contractor sourcing, CDTFA sales/use tax, EDD payroll, BOE property tax, local business tax, entity compliance, notice responses, and any answer requiring citation quality control, authority ranking, taxpayer-role classification, or current-law verification.
+description: Authority-weighted tax research framework for California tax and compliance questions. Use for California residency, nonresident sourcing, income/franchise tax, sole proprietor or independent contractor sourcing, CDTFA sales/use tax, EDD payroll, BOE property tax, local business tax, entity compliance, notice responses, and any answer requiring citation quality control, authority ranking, taxpayer-role classification, current-law verification, or filing-risk analysis.
 ---
 
 # California Tax Authority
@@ -16,7 +16,17 @@ Produce concise California tax research answers that prioritize:
 - narrow case interpretation
 - practical filing risk
 
-Always separate law from guidance, guidance from commentary, and research leads from filing-position support.
+Always separate:
+
+- binding law
+- binding regulation
+- binding or citable precedent
+- formal administrative authority
+- practical guidance
+- nonprecedential research leads
+- commentary
+
+Do not turn examples into hardcoded answers.
 
 ## Answer Style
 
@@ -39,6 +49,8 @@ The first paragraph must answer in plain English using one of:
 - `Probably`
 - `Possibly`
 - `It depends`
+
+Use risk-based wording when authority is mixed.
 
 Do not begin with `Issue` unless the user asks for a formal memo.
 
@@ -89,13 +101,25 @@ Before ranking authority, check:
 - taxpayer role
 - residency status
 - income source
-- superseded, modified, rescinded, depublished, or review-granted status
+- procedural posture
+- current status
 
-Do not use stale authority as current support unless clearly labeled.
+Check whether relevant authority is:
+
+- amended
+- superseded
+- modified
+- rescinded
+- withdrawn
+- depublished
+- review-granted
+- nonprecedential
+
+Do not use stale or status-uncertain authority as current support unless clearly labeled.
 
 ### 3. Check current directly relevant authority
 
-Before finalizing any filing-position answer, check whether directly relevant recent authority exists.
+Before finalizing any filing-position answer, check whether directly relevant current authority exists.
 
 Look for:
 
@@ -106,9 +130,23 @@ Look for:
 - current agency guidance
 - review, depublication, modification, or supersession
 
-If a recent case or precedential decision conflicts with agency guidance, explain both. Do not overstate either.
+If an agency position depends on a disputed legal theory, check whether current published cases or precedential administrative decisions have accepted, rejected, limited, or questioned that theory.
 
-If an agency position depends on a disputed legal theory, check whether current published cases or precedential administrative decisions have accepted, rejected, limited, or questioned that theory before finalizing the answer.
+Before saying no published appellate authority exists, check current cases using issue-specific terms such as:
+
+- nonresident sourcing
+- sole proprietor
+- independent contractor
+- Schedule C
+- customer benefit
+- market sourcing
+- apportionment
+- unitary business
+- California-source income
+- CCR Title 18 section 17951-4
+- RTC section 25136
+
+If recent higher authority conflicts with agency guidance, explain both. Do not overstate either.
 
 ### 4. Build the authority stack
 
@@ -126,15 +164,23 @@ General order:
 8. nonprecedential rulings or opinions
 9. commentary
 
+If a published court decision directly addresses a theory used by agency guidance or an administrative decision, discuss the court decision before agency webpages, publications, or OTA opinions.
+
 ### 5. Read cases narrowly
 
-For every case used:
+For every case used, state:
 
-- state the taxpayer type
-- state the issue actually decided
-- state the procedural posture if relevant
-- state what the case did not decide
-- avoid using the case for a broader rule than it supports
+- court
+- year
+- publication / precedential status
+- taxpayer type
+- issue actually decided
+- procedural posture, if relevant
+- holding
+- what the case did not decide
+- whether current status has changed
+
+Avoid using a case for a broader rule than it supports.
 
 ### 6. Label authority status
 
@@ -151,7 +197,9 @@ Use these labels:
 - `Secondary commentary`
 - `Superseded / caution`
 
-Agency webpages, FAQs, forms, instructions, and publications are usually `Practical guidance`, not binding law.
+Agency webpages, FAQs, forms, instructions, publications, and scenario guidance are usually `Practical guidance`, not binding law.
+
+OTA precedential opinions are useful administrative precedent, but they do not outrank a contrary published California appellate decision.
 
 ### 7. Confirm minimum support
 
@@ -175,7 +223,15 @@ Classify the taxpayer first.
 
 ### W-2 employees
 
-For nonresident W-2 employees, California wage sourcing generally turns on where the employee physically performs services, subject to special rules for deferred compensation, equity compensation, bonuses, and part-year residency.
+For nonresident W-2 employees, California wage sourcing generally turns on where the employee physically performs services, subject to special rules for:
+
+- deferred compensation
+- equity compensation
+- bonuses
+- part-year residency
+- California workdays
+
+Do not apply sole proprietor customer-benefit rules to W-2 wages.
 
 ### Independent contractors / sole proprietors
 
@@ -190,6 +246,11 @@ Use cautious framing:
 > FTB may assert California-source income if California customers receive the benefit of the services in California, but the strength of that position depends on the applicable statutes, regulations, current case law, taxpayer role, business structure, facts, and apportionment theory.
 
 Do not say the income is definitely taxable or definitely non-taxable unless current controlling authority supports that level of certainty.
+
+Do not reduce the rule to either:
+
+- `California clients automatically create California-source income`, or
+- `out-of-state physical performance automatically eliminates California-source income`.
 
 ### Pass-through owners
 
@@ -211,12 +272,14 @@ Always separate:
 - employee vs contractor vs sole proprietor
 - sole proprietor income vs pass-through income
 - agency position vs binding law
+- practical guidance vs controlling authority
 - legal conclusion vs filing mechanics
 - current authority vs older authority
 - holding vs dicta
 - practical audit risk vs court-strength position
 - customer location vs customer-benefit location
 - taxability conclusion vs filing-risk conclusion
+- California business presence vs California customer base
 
 ## Answer Contract
 
@@ -230,6 +293,7 @@ Use risk-based language when authority is mixed:
 - `FTB may assert`
 - `The taxpayer may have arguments`
 - `The result depends on facts and current authority`
+- `This is a filing-risk question, not a simple yes/no question`
 
 Avoid categorical wording unless the cited authority supports it.
 
@@ -242,8 +306,9 @@ For California nonresident sourcing questions, usually explain:
 - taxpayer role
 - residency vs source income
 - agency position
-- any directly relevant higher authority or current conflicting authority
-- why the answer is risk-based if the authorities are mixed
+- current directly relevant higher authority, if any
+- any conflict between agency guidance and higher authority
+- why the answer is risk-based if authorities are mixed
 
 ### Authorities
 
@@ -255,6 +320,8 @@ When authorities conflict, order them by legal weight and explain the conflict.
 
 Do not present forms, publications, agency webpages, FAQs, or scenario guidance as binding law.
 
+Do not cite FTB Publication 1005 for service-income sourcing unless the issue involves pensions or annuities.
+
 ### Application
 
 Apply the facts. State assumptions and uncertainty.
@@ -263,15 +330,18 @@ For sourcing issues, identify:
 
 - where work was performed
 - where customers received the benefit
+- whether customer location differs from benefit location
 - whether the taxpayer has California business presence
 - whether the income is sole proprietor, employee, entity, pass-through, intangible, or real-property income
 - whether the issue involves allocation, apportionment, or market assignment
 
 ### Filing Guidance
 
-Mention forms, schedules, recordkeeping, filing thresholds, estimated taxes, disclosures, or refund claims only as practical guidance.
+Mention forms, schedules, recordkeeping, filing thresholds, estimated taxes, disclosures, withholding, refund claims, or protective claims only as practical guidance.
 
 Do not present filing mechanics as legal authority.
+
+Do not make broad refund, penalty, withholding, or statute-of-limitations claims without checking procedural rules and tax-year facts.
 
 ### Risk
 
@@ -314,13 +384,19 @@ For each source, include:
 - Do not cite authority without checking fit.
 - Do not call practical guidance binding law.
 - Do not treat nonprecedential material as controlling.
+- Do not treat OTA precedential opinions as stronger than contrary published appellate authority.
 - Do not give categorical answers when authority is mixed.
 - Do not overread cases.
 - Do not ignore recent directly relevant authority.
+- Do not say no published authority exists without checking current cases.
 - Do not bury the answer under the authority stack.
 - Do not treat an agency position as the final answer when published authority may limit that position.
 - Do not treat a single case as resolving all similar fact patterns unless the holding actually does so.
 - Do not use examples as hardcoded answers.
+- Do not cite FTB Publication 1005 unless pensions or annuities are involved.
+- Do not label RTC section 25136 as a regulation.
+- Do not say RTC section 25136 alone directly taxes nonresident sole proprietors.
+- Do not cite Valentino for a broad sole proprietor physical-performance rule.
 
 ## Required Disclaimer Snippets
 
@@ -341,6 +417,10 @@ If payroll classification appears:
 If agency guidance conflicts with higher authority:
 
 > The agency position is relevant to filing and audit risk, but it may not control if higher or more directly applicable authority limits that theory.
+
+If authority is mixed:
+
+> This is a filing-risk question, not a simple yes/no question. The answer depends on facts, current authority, and how the agency theory applies to this taxpayer.
 
 ## Resource Usage
 
