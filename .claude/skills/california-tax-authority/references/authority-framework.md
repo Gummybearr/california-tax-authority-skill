@@ -55,13 +55,14 @@ Apply `Rank 0` first, then rank by `1 -> 12`.
 | C9 | FTB Chief Counsel Rulings, fact-specific and generally nonprecedential |
 | C10 | FTB forms/instructions/publications, including 540NR Booklet, Schedule CA instructions, Schedule R instructions, Pub 1001, Pub 1004, Pub 1031, and Pub 1100 |
 | C11 | OTA nonprecedential opinions |
-| C12 | FTB webpages/FAQs/Tax News, including current practical examples |
+| C12 | FTB webpages/FAQs/Tax News, including current practical examples and scenario-based guidance |
 | C13 | Commentary |
 
 Important caution for C10-C12:
 
 - These materials are generally not controlling legal authority.
-- However, current FTB forms, instructions, publications, and webpages may be highly relevant practical guidance, especially when they directly address the taxpayer’s exact fact pattern.
+- They may be highly relevant practical guidance, especially when they directly address the taxpayer’s exact fact pattern.
+- They are evidence of FTB’s administrative position and filing expectations, but should not be labeled as binding law or binding regulation.
 - If current FTB practical guidance conflicts with a broad generalization derived from older or less-specific authority, state the tension and avoid an overconfident filing-position conclusion.
 
 ## 4) California Sales/Use (CDTFA) Ladder
@@ -428,6 +429,23 @@ Instead, answer with this structure:
    - “Low” only if no California customer benefit, no California workdays, no California business presence, and strong nonresident facts.
    - “Medium” if California customers receive benefit in California but facts are otherwise clean.
    - “High” if residency is weak, work occurs in California, or California business presence exists.
+
+### Authority precision requirement
+
+When applying this guardrail, distinguish:
+
+- RTC § 17041 and RTC § 17951 as the general statutory basis for taxing nonresidents on California-source income.
+- CCR Title 18 § 17951-4 as the regulation connecting nonresident business income to California apportionment/allocation rules when a trade or business is carried on within and outside California.
+- RTC § 25136 as the market-assignment rule for service receipts under California apportionment.
+- FTB scenario-based guidance as practical guidance showing FTB’s current administrative position for independent contractors and sole proprietors.
+
+Do not say that FTB webpages are binding law.
+
+Do not say that RTC § 25136 alone directly taxes nonresident sole proprietors.
+
+A safer formulation is:
+
+> In the nonresident sole proprietor context, RTC § 25136 becomes relevant through California’s business-income apportionment framework and is reflected in current FTB practical guidance for independent contractors and sole proprietors.
   
 ## 13C) Case-Law Caution: Do Not Overread Valentino
 
