@@ -12,7 +12,7 @@ Apply applicability filters first, then rank authority.
 | 1 | Statutes / codes | IRC, RTC, CUIC, municipal code | Primary support. |
 | 2 | Regulations | Treasury Regs, CCR Title 18 | Strong controlling support if applicable. |
 | 3 | Binding court precedent | U.S. Supreme Court, CA Supreme Court, published CA Court of Appeal, relevant federal appellate courts | Strong if jurisdiction and facts fit. |
-| 4 | Precedential tax opinions | Tax Court regular opinions, OTA precedential opinions, BOE precedential opinions | Strong if issue fits. |
+| 4 | Precedential tax opinions | Tax Court regular opinions, OTA precedential opinions, BOE precedential opinions | Strong if issue fits; subordinate to published court authority. |
 | 5 | Formal agency authority | IRS Revenue Rulings, Revenue Procedures, FTB Legal Rulings, FTB Notices | Strong administrative support, but subordinate to statutes, regulations, and courts. |
 | 6 | Fact-specific agency rulings | PLRs, TAMs, CCAs, FTB Chief Counsel Rulings, CDTFA opinions | Usually nonprecedential. Label clearly. |
 | 7 | Practical agency guidance | forms, instructions, publications, agency guides | Useful for filing mechanics and agency position. Not binding law. |
@@ -71,18 +71,33 @@ If recent higher authority conflicts with agency guidance:
 5. Identify what remains unresolved.
 6. Adjust the risk assessment.
 
+Before saying no published appellate authority exists, check current published cases using issue-specific terms such as:
+
+- nonresident sourcing
+- sole proprietor
+- independent contractor
+- Schedule C
+- customer benefit
+- market sourcing
+- apportionment
+- unitary business
+- California-source income
+- CCR Title 18 section 17951-4
+- RTC section 25136
+
 Do not hardcode a case into a categorical rule.
 
 ## 4) Direct Case Override Rule
 
-When current agency guidance or an administrative decision relies on a legal theory, check whether a published court decision has accepted, rejected, limited, or questioned that theory.
+When current agency guidance, FTB scenario guidance, or an administrative decision relies on a legal theory, check whether a published court decision has accepted, rejected, limited, or questioned that theory.
 
 If a published court decision directly addresses the same theory:
 
-- discuss the court decision before agency webpages or practical guidance
+- discuss the court decision before agency webpages, publications, practical guidance, or OTA opinions
 - state the court’s holding narrowly
 - identify which agency theory was accepted, rejected, limited, or left open
 - downgrade conflicting agency guidance to agency position / audit-risk evidence
+- downgrade conflicting OTA precedent to administrative precedent limited by higher court authority
 - do not describe the agency position as the controlling answer unless the court decision supports it
 
 Do not treat a single court decision as resolving every similar fact pattern unless the holding actually does so.
@@ -95,7 +110,7 @@ Do not treat a single court decision as resolving every similar fact pattern unl
 | C2 | CCR Title 18 / FTB regulations |
 | C3 | California Supreme Court published opinions |
 | C4 | California Court of Appeal published opinions |
-| C5 | OTA precedential opinions |
+| C5 | OTA precedential opinions, unless limited by higher authority |
 | C6 | BOE precedential opinions still relevant |
 | C7 | FTB Legal Rulings |
 | C8 | FTB Notices |
@@ -137,7 +152,7 @@ C10-C11 caution:
 | S1 | RTC sales/use tax provisions |
 | S2 | CDTFA regulations / CCR Title 18 |
 | S3 | California Supreme Court / published Court of Appeal |
-| S4 | OTA precedential business tax opinions |
+| S4 | OTA precedential business tax opinions, unless limited by higher authority |
 | S5 | BOE precedential decisions |
 | S6 | CDTFA Business Taxes Law Guide |
 | S7 | CDTFA annotations / legal opinions, generally nonbinding |
@@ -274,7 +289,7 @@ Do not stop at the FTB guidance. Check:
 - RTC provisions
 - CCR provisions
 - current published cases
-- OTA precedential opinions
+- OTA precedential opinions, including whether they are limited by later court authority
 - current FTB guidance
 - current status of all authorities
 
@@ -319,12 +334,14 @@ Do not use:
 - an agency guidance example as binding law
 - a summary judgment ruling as resolving every legal theory unless it actually does
 - an OTA precedential opinion as stronger than a contrary published Court of Appeal decision
+- an OTA precedential opinion as current controlling support without checking whether later published court authority limits the same theory
 
 ## 15) Common Citation Errors
 
 Avoid these errors:
 
 - citing FTB Publication 1005 unless pensions or annuities are involved
+- citing FTB Publication 1005 for service-income sourcing
 - labeling RTC § 25136 as a regulation
 - saying RTC § 25136 alone directly taxes nonresident sole proprietors
 - treating FTB webpages as binding law
@@ -333,8 +350,10 @@ Avoid these errors:
 - citing Valentino for a broad sole proprietor physical-performance rule
 - saying “California clients = California-source income” without analyzing where the benefit is received
 - ignoring recent published authority that may limit agency guidance
+- saying no published appellate authority exists without checking current cases on nonresident sourcing, sole proprietors, independent contractors, § 17951-4, unitary business, market sourcing, and customer-benefit sourcing
 - describing FTB guidance as settled law when the legal theory is disputed
 - making broad refund or penalty claims without checking limitations periods and procedural posture
+- stating that a future appellate decision could change the answer without checking whether one already exists
 
 ## 16) Scoring Model
 
