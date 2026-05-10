@@ -108,6 +108,8 @@ Look for:
 
 If a recent case or precedential decision conflicts with agency guidance, explain both. Do not overstate either.
 
+If an agency position depends on a disputed legal theory, check whether current published cases or precedential administrative decisions have accepted, rejected, limited, or questioned that theory before finalizing the answer.
+
 ### 4. Build the authority stack
 
 Use `references/authority-framework.md`.
@@ -179,13 +181,15 @@ For nonresident W-2 employees, California wage sourcing generally turns on where
 
 For nonresident independent contractors and sole proprietors, current FTB practical guidance may use a customer-benefit approach.
 
-Under that guidance, the key question is where the customer receives the benefit of the service, not merely where the contractor physically works.
+Under that guidance, FTB may focus on where the customer receives the benefit of the service rather than where the contractor physically performs the work.
 
-But do not treat FTB practical guidance as the end of the analysis. Check whether statutes, regulations, published cases, or precedential decisions support, limit, or conflict with the FTB position.
+Do not treat FTB practical guidance as the end of the analysis. Check whether statutes, regulations, OTA precedential opinions, published cases, or other current authority support, limit, or conflict with that agency position.
 
 Use cautious framing:
 
-> FTB may assert California-source income if California customers receive the benefit of the services in California, but the strength of that position depends on the applicable statutes, regulations, current case law, taxpayer role, facts, and apportionment theory.
+> FTB may assert California-source income if California customers receive the benefit of the services in California, but the strength of that position depends on the applicable statutes, regulations, current case law, taxpayer role, business structure, facts, and apportionment theory.
+
+Do not say the income is definitely taxable or definitely non-taxable unless current controlling authority supports that level of certainty.
 
 ### Pass-through owners
 
@@ -196,6 +200,8 @@ Do not apply sole proprietor rules automatically to K-1 income.
 ### Apportioning businesses
 
 If a trade or business has income inside and outside California, consider allocation, apportionment, Schedule R, and market-assignment rules.
+
+Do not assume that market-assignment rules directly resolve the nonresident individual sourcing question without explaining the statutory or regulatory path that makes those rules relevant.
 
 ## Required Distinctions
 
@@ -209,6 +215,8 @@ Always separate:
 - current authority vs older authority
 - holding vs dicta
 - practical audit risk vs court-strength position
+- customer location vs customer-benefit location
+- taxability conclusion vs filing-risk conclusion
 
 ## Answer Contract
 
@@ -216,9 +224,26 @@ Always separate:
 
 Answer directly in 1-3 sentences.
 
+Use risk-based language when authority is mixed:
+
+- `Possibly`
+- `FTB may assert`
+- `The taxpayer may have arguments`
+- `The result depends on facts and current authority`
+
+Avoid categorical wording unless the cited authority supports it.
+
 ### Why
 
 Explain the controlling distinction in plain English.
+
+For California nonresident sourcing questions, usually explain:
+
+- taxpayer role
+- residency vs source income
+- agency position
+- any directly relevant higher authority or current conflicting authority
+- why the answer is risk-based if the authorities are mixed
 
 ### Authorities
 
@@ -226,19 +251,50 @@ List only the most relevant authorities. Label each authority.
 
 Do not over-cite.
 
+When authorities conflict, order them by legal weight and explain the conflict.
+
+Do not present forms, publications, agency webpages, FAQs, or scenario guidance as binding law.
+
 ### Application
 
 Apply the facts. State assumptions and uncertainty.
 
+For sourcing issues, identify:
+
+- where work was performed
+- where customers received the benefit
+- whether the taxpayer has California business presence
+- whether the income is sole proprietor, employee, entity, pass-through, intangible, or real-property income
+- whether the issue involves allocation, apportionment, or market assignment
+
 ### Filing Guidance
 
-Mention forms, schedules, recordkeeping, filing thresholds, estimated taxes, or disclosures only as practical guidance.
+Mention forms, schedules, recordkeeping, filing thresholds, estimated taxes, disclosures, or refund claims only as practical guidance.
+
+Do not present filing mechanics as legal authority.
 
 ### Risk
 
 Give a brief risk level: `low`, `medium`, or `high`.
 
 Explain what would change the answer.
+
+Use language such as:
+
+- `FTB may assert this position, but taxpayer-side authority exists.`
+- `The agency position is clear, but the court-strength position may be disputed.`
+- `This is a filing-risk question, not a simple yes/no question.`
+- `A published court decision may limit the agency theory, but may not resolve every alternative theory.`
+
+Avoid:
+
+- `clearly taxable`
+- `clearly not taxable`
+- `no risk`
+- `FTB cannot tax this`
+- `FTB will definitely win`
+
+unless the cited authority actually supports that level of certainty.
 
 ### Sources
 
@@ -262,6 +318,9 @@ For each source, include:
 - Do not overread cases.
 - Do not ignore recent directly relevant authority.
 - Do not bury the answer under the authority stack.
+- Do not treat an agency position as the final answer when published authority may limit that position.
+- Do not treat a single case as resolving all similar fact patterns unless the holding actually does so.
+- Do not use examples as hardcoded answers.
 
 ## Required Disclaimer Snippets
 
@@ -279,6 +338,10 @@ If payroll classification appears:
 
 > This is a payroll tax/compliance research draft. Worker classification may also require employment-law review.
 
+If agency guidance conflicts with higher authority:
+
+> The agency position is relevant to filing and audit risk, but it may not control if higher or more directly applicable authority limits that theory.
+
 ## Resource Usage
 
 Read before finalizing answers:
@@ -286,3 +349,5 @@ Read before finalizing answers:
 - `references/authority-framework.md`
 
 Use examples only as examples. Do not treat them as hardcoded answers.
+
+When the issue is current, litigation-prone, or depends on agency guidance, verify whether directly relevant published cases or precedential decisions have changed the analysis before finalizing.
