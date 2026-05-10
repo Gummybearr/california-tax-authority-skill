@@ -12,13 +12,13 @@ Apply applicability filters first, then rank authority.
 | 1 | Statutes / codes | IRC, RTC, CUIC, municipal code | Primary support. |
 | 2 | Regulations | Treasury Regs, CCR Title 18 | Strong controlling support if applicable. |
 | 3 | Binding court precedent | U.S. Supreme Court, CA Supreme Court, published CA Court of Appeal, relevant federal appellate courts | Strong if jurisdiction and facts fit. |
-| 4 | Precedential tax opinions | Tax Court regular, OTA precedential, BOE precedential | Strong if issue fits. |
-| 5 | Formal agency authority | Rev. Rul., Rev. Proc., FTB Legal Ruling, FTB Notice | Strong practical / administrative support. |
-| 6 | Fact-specific agency rulings | PLR, TAM, CCA, FTB Chief Counsel Ruling, CDTFA opinion | Usually nonprecedential. Label clearly. |
+| 4 | Precedential tax opinions | Tax Court regular opinions, OTA precedential opinions, BOE precedential opinions | Strong if issue fits. |
+| 5 | Formal agency authority | IRS Revenue Rulings, Revenue Procedures, FTB Legal Rulings, FTB Notices | Strong administrative support, but subordinate to statutes, regulations, and courts. |
+| 6 | Fact-specific agency rulings | PLRs, TAMs, CCAs, FTB Chief Counsel Rulings, CDTFA opinions | Usually nonprecedential. Label clearly. |
 | 7 | Practical agency guidance | forms, instructions, publications, agency guides | Useful for filing mechanics and agency position. Not binding law. |
 | 8 | Agency webpages / FAQs | FTB, CDTFA, EDD, BOE pages | Practical guidance only unless tied to stronger authority. |
-| 9 | Nonprecedential decisions | OTA nonprecedential, Tax Court summary opinions | Fact-pattern reference only. |
-| 10 | Manuals / handbooks | IRM, FTB/CDTFA manuals, BOE Assessors' Handbook | Operational context. Weak for legal position. |
+| 9 | Nonprecedential decisions | OTA nonprecedential opinions, Tax Court summary opinions | Fact-pattern reference only. |
+| 10 | Manuals / handbooks | IRM, FTB/CDTFA manuals, BOE Assessors' Handbook | Operational context. Weak for taxpayer legal position. |
 | 11 | Commentary | Spidell, CalCPA, CCH, RIA, Bloomberg, Tax Notes, blogs | Explain only. Do not establish the conclusion. |
 | 12 | Templates / checklists | notice templates, internal checklists | Formatting only. |
 
@@ -47,6 +47,8 @@ Check for:
 - withdrawal
 - nonprecedential status
 
+Do not use stale, revoked, or status-uncertain authority as current support unless clearly labeled.
+
 ## 3) Current Authority Check
 
 For filing-position answers, always check for current directly relevant authority.
@@ -62,16 +64,30 @@ This is especially important when:
 
 If recent higher authority conflicts with agency guidance:
 
-1. state the agency position
-2. state the higher authority
-3. explain the conflict
-4. read the holding narrowly
-5. identify what remains unresolved
-6. adjust the risk assessment
+1. State the agency position.
+2. State the higher authority.
+3. Explain the conflict.
+4. Read the holding narrowly.
+5. Identify what remains unresolved.
+6. Adjust the risk assessment.
 
 Do not hardcode a case into a categorical rule.
 
-## 4) California Income / Franchise Tax Ladder
+## 4) Direct Case Override Rule
+
+When current agency guidance or an administrative decision relies on a legal theory, check whether a published court decision has accepted, rejected, limited, or questioned that theory.
+
+If a published court decision directly addresses the same theory:
+
+- discuss the court decision before agency webpages or practical guidance
+- state the court’s holding narrowly
+- identify which agency theory was accepted, rejected, limited, or left open
+- downgrade conflicting agency guidance to agency position / audit-risk evidence
+- do not describe the agency position as the controlling answer unless the court decision supports it
+
+Do not treat a single court decision as resolving every similar fact pattern unless the holding actually does so.
+
+## 5) California Income / Franchise Tax Ladder
 
 | Rank | Authority |
 | --- | --- |
@@ -96,7 +112,7 @@ C10-C11 caution:
 - Do not label them as binding law.
 - If they conflict with higher authority, explain the conflict.
 
-## 5) Federal Tax Ladder
+## 6) Federal Tax Ladder
 
 | Rank | Authority |
 | --- | --- |
@@ -114,7 +130,7 @@ C10-C11 caution:
 | F12 | IRM |
 | F13 | Commentary |
 
-## 6) CDTFA Sales / Use Tax Ladder
+## 7) CDTFA Sales / Use Tax Ladder
 
 | Rank | Authority |
 | --- | --- |
@@ -132,8 +148,9 @@ C10-C11 caution:
 S7 caution:
 
 - Treat annotations as research leads unless supported by stronger authority.
+- If an annotation conflicts with statute, regulation, or precedential authority, the stronger authority controls.
 
-## 7) EDD Payroll Tax Ladder
+## 8) EDD Payroll Tax Ladder
 
 | Rank | Authority |
 | --- | --- |
@@ -149,7 +166,7 @@ Required note for worker classification:
 
 > This is a payroll tax/compliance research draft. Worker classification may also require employment-law review.
 
-## 8) Property Tax Ladder
+## 9) Property Tax Ladder
 
 | Rank | Authority |
 | --- | --- |
@@ -163,7 +180,7 @@ Required note for worker classification:
 | P8 | County assessor forms/pages |
 | P9 | Commentary |
 
-## 9) Local Business Tax Ladder
+## 10) Local Business Tax Ladder
 
 | Rank | Authority |
 | --- | --- |
@@ -184,7 +201,7 @@ Always track:
 
 Do not import state income tax sourcing rules into local tax without checking the ordinance.
 
-## 10) Entity Compliance Ladder
+## 11) Entity Compliance Ladder
 
 | Rank | Authority |
 | --- | --- |
@@ -196,7 +213,27 @@ Do not import state income tax sourcing rules into local tax without checking th
 | B6 | SOS webpages / FAQs |
 | B7 | Commentary |
 
-## 11) California Residency / Sourcing Protocol
+## 12) California Residency / Sourcing Search Order
+
+For California residency and sourcing questions, use this order:
+
+1. RTC residency and nonresident sourcing provisions.
+2. CCR Title 18 regulations.
+3. Current published California appellate or Supreme Court cases directly addressing the issue.
+4. OTA precedential opinions, noting whether later court authority limits them.
+5. FTB Legal Rulings / Notices.
+6. Current FTB form instructions, publications, webpages, and scenario guidance.
+7. FTB Chief Counsel Rulings, labeled as fact-specific or nonprecedential.
+8. OTA nonprecedential opinions, labeled as nonprecedential.
+9. Commentary.
+
+Reason:
+
+- Published court authority outranks FTB webpages and OTA precedential opinions.
+- FTB guidance is highly relevant to audit and filing expectations, but it is not binding law.
+- A later published court decision can limit an earlier administrative or OTA theory.
+
+## 13) California Residency / Sourcing Protocol
 
 Always separate:
 
@@ -220,7 +257,13 @@ Before applying a sourcing rule, classify the taxpayer:
 
 ### W-2 wages
 
-For nonresident W-2 wages, physical work location is usually central, subject to special compensation rules.
+For nonresident W-2 wages, physical work location is usually central, subject to special rules for:
+
+- deferred compensation
+- equity compensation
+- bonuses
+- part-year residency
+- California workdays
 
 ### Independent contractor / sole proprietor income
 
@@ -237,11 +280,25 @@ Do not stop at the FTB guidance. Check:
 
 Use cautious conclusions when authority is mixed.
 
+Correct framing:
+
+> FTB may assert California-source income when California customers receive the benefit of services in California, but the strength of that position depends on statutes, regulations, current case law, taxpayer role, facts, and apportionment theory.
+
+Avoid categorical framing unless the authority actually supports it.
+
 ### Pass-through income
 
-For K-1 income, analyze entity-level sourcing and owner-level reporting separately.
+For K-1 income, analyze:
 
-## 12) Case Reading Discipline
+- entity-level California-source income
+- owner-level reporting
+- apportionment
+- withholding
+- composite return or nonresident owner rules if applicable
+
+Do not apply sole proprietor rules automatically to pass-through income.
+
+## 14) Case Reading Discipline
 
 For each case, state:
 
@@ -261,8 +318,9 @@ Do not use:
 - an employee wage case as a contractor rule
 - an agency guidance example as binding law
 - a summary judgment ruling as resolving every legal theory unless it actually does
+- an OTA precedential opinion as stronger than a contrary published Court of Appeal decision
 
-## 13) Common Citation Errors
+## 15) Common Citation Errors
 
 Avoid these errors:
 
@@ -271,12 +329,14 @@ Avoid these errors:
 - saying RTC § 25136 alone directly taxes nonresident sole proprietors
 - treating FTB webpages as binding law
 - treating nonprecedential OTA opinions as controlling
+- treating OTA precedential opinions as equal to published Court of Appeal authority
 - citing Valentino for a broad sole proprietor physical-performance rule
 - saying “California clients = California-source income” without analyzing where the benefit is received
 - ignoring recent published authority that may limit agency guidance
+- describing FTB guidance as settled law when the legal theory is disputed
 - making broad refund or penalty claims without checking limitations periods and procedural posture
 
-## 14) Scoring Model
+## 16) Scoring Model
 
 Use scoring only as a research aid.
 
@@ -307,8 +367,31 @@ Adjust for:
 - current status
 - direct fact fit
 - precedential status
+- later authority that limits or conflicts with the source
 
-## 15) External Link Policy
+## 17) Risk Language
+
+Use risk language when authority is mixed.
+
+Examples:
+
+- `FTB may assert this position, but taxpayer-side authority exists.`
+- `The agency position is clear, but the court-strength position is less settled.`
+- `This is a filing-risk question, not a simple yes/no question.`
+- `Current support is practical guidance only; it is not enough to lock a filing position.`
+- `A published court decision limits the agency theory, but does not necessarily resolve every alternative theory.`
+
+Avoid:
+
+- `Clearly taxable`
+- `Clearly not taxable`
+- `No risk`
+- `FTB cannot tax this`
+- `FTB will definitely win`
+
+unless the cited authority actually supports that level of certainty.
+
+## 18) External Link Policy
 
 Use links in this order:
 
