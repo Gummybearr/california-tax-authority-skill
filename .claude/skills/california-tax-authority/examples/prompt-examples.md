@@ -8,6 +8,7 @@ Question:
 Expected behavior:
 - IRC -> Treasury Reg -> RTC/CCR -> FTB guidance 순으로 제시
 - commentary는 마지막 분리
+- 각 핵심 citation마다 공식/검증 가능한 외부 링크 포함
 
 ## FTB Notice Response
 
@@ -17,6 +18,7 @@ Question:
 Expected behavior:
 - RTC/CCR/FTB Legal Ruling/OTA precedential 중심
 - nonprecedential은 controlling authority로 사용 금지
+- `External Sources (Links)` 섹션에 authority별 URL 매핑
 
 ## CDTFA Sales/Use
 
@@ -26,6 +28,7 @@ Question:
 Expected behavior:
 - annotation은 research lead only로 표시
 - statute/regulation/case authority 부족 시 한계 명시
+- 링크 없는 항목은 controlling으로 결론 내리지 않음
 
 ## Payroll Classification
 
@@ -35,4 +38,4 @@ Question:
 Expected behavior:
 - CUIC/CCR/cases/EDD ruling 순서
 - employment-law review 필요 고지 문구 포함
-
+- CUIC/CCR/EDD 가이드 링크를 함께 제공

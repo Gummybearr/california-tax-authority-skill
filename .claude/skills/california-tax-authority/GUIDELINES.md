@@ -23,6 +23,8 @@ This structure works for:
   - commentary
 - Mandatory nonprecedential labeling.
 - No filing-position conclusion without at least one primary/strong authority.
+- Mandatory external source links for cited authorities.
+- Official-source-first link policy for every citation.
 
 ## 3) Sources and Ranking
 
@@ -32,6 +34,7 @@ Use `references/authority-framework.md` as the single source of truth for:
 - score and multiplier model
 - question-type search order
 - citation labels for UI/output
+- external link quality and fallback rules
 
 ## 4) gstack-Inspired Practices Applied
 
@@ -58,4 +61,3 @@ If you need to import manually in Cowork:
 2. Open Claude > Customize > Skills.
 3. Upload the zip file.
 4. Enable the skill for your workspace.
-

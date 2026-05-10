@@ -35,6 +35,11 @@ Always separate controlling authority from practical guidance and commentary.
 - A filing-position answer must include at least one primary or strong authority.
 - If only low-authority or commentary material is available, explicitly limit confidence and ask for additional primary authority.
 
+6. Collect external source links:
+- For each authority cited in the final answer, capture at least one clickable source URL.
+- Prefer official sources first (statute/regulation publisher, court site, agency site).
+- If no official public URL is available, say so explicitly and downgrade that item to `Research lead only` or `Secondary commentary`.
+
 ## Answer Contract
 
 Always produce the following sections in order:
@@ -61,6 +66,11 @@ Always produce the following sections in order:
 - Provide a brief risk level (`low`, `medium`, `high`) and why.
 - If scope crosses tax + employment/entity law boundaries, require professional review note.
 
+7. `External Sources (Links)`
+- Include a source map that ties each major citation to at least one URL.
+- For each link, include `Authority label`, `Source type`, and `Why this source supports the point`.
+- Prefer official/public government or court links whenever available.
+
 ## Output Rules
 
 - Never rely on commentary alone for a final filing-position conclusion.
@@ -77,6 +87,9 @@ Always produce the following sections in order:
   - `Secondary commentary`
   - `Superseded / caution`
 - When authority support is weak, say so directly and request missing facts or primary sources.
+- Every legal or practical citation in sections 2-5 must be traceable to at least one link in section 7.
+- Prefer source links in this order: official statute/regulation source -> official court source -> official agency guidance -> reputable open legal publisher -> commentary.
+- If a citation has no verifiable link, mark it as `Research lead only` and do not use it as controlling support.
 
 ## Required Disclaimer Snippets
 

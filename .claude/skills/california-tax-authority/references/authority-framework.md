@@ -232,6 +232,10 @@ Composite score guideline:
 
 5. Keep legal authority and practical guidance separate.
 
+6. External links are required in final outputs:
+- Every cited authority used in `Controlling Authorities`, `Practical Filing Guidance`, or `Nonprecedential / Research Leads` must have at least one clickable source URL in a dedicated `External Sources (Links)` section.
+- If no verifiable public link can be found, the item cannot be treated as controlling support and must be labeled `Research lead only` or `Secondary commentary`.
+
 ## 13) Question-Type Search Order
 
 ### Federal vs California conformity questions
@@ -305,3 +309,30 @@ Use one label per citation:
 - `Research lead only`
 - `Secondary commentary`
 - `Superseded / caution`
+
+## 15) External Link Policy
+
+### Link Quality Order
+
+Use this order when selecting links for cited authorities:
+1. Official statute/regulation source (for example `uscode.house.gov`, `ecfr.gov`, `leginfo.legislature.ca.gov`).
+2. Official court source (for example `supremecourt.gov`, `courtinfo.ca.gov`, official appellate/tax court publication pages).
+3. Official agency source (for example `irs.gov`, `ftb.ca.gov`, `cdtfa.ca.gov`, `edd.ca.gov`, `boe.ca.gov`, county/city official sites).
+4. Reputable open legal publisher when official source is unavailable.
+5. Commentary only as secondary support.
+
+### Required Source Map Format
+
+Final answers must include a dedicated `External Sources (Links)` section with one row/bullet per authority, including:
+- citation name or short cite
+- authority label
+- source type (`official statute`, `official regulation`, `official court`, `official agency`, `secondary`)
+- clickable URL
+- short note explaining why the source supports the statement
+
+### Link Failure Handling
+
+- If an official link is inaccessible, add a backup link and mark the confidence impact.
+- If no reliable link is found, explicitly state:
+  - `No public verifiable link located for this item; treated as research lead only.`
+- Do not present unlinked items as controlling legal authority.
