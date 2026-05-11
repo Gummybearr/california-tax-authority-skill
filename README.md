@@ -2,7 +2,7 @@
 
 Turn Claude into a **California tax research copilot** that is concise, current-authority-first, and source-backed.
 
-## Before vs After (Fast Comparison)
+## Before vs After
 
 Prompt example:
 
