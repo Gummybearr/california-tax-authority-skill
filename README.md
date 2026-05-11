@@ -102,12 +102,32 @@ Claude with skill:
 1. Put this folder at `.claude/skills/california-tax-authority/` (project) or `~/.claude/skills/california-tax-authority/` (global).
 2. Ask normally or invoke `/california-tax-authority`.
 
+### Gemini (Web / Mac App via Gems)
+1. Open Gemini and go to `Explore Gems -> New Gem`.
+2. Copy-paste instructions from `gemini/GEM_INSTRUCTIONS.md`.
+3. Under `Knowledge`, upload `gemini/california-tax-authority-gemini-knowledge.zip` (or the four files in `gemini/knowledge/`).
+4. Save and test with a time-sensitive prompt (for example, include `still/current/latest`).
+
+Notes:
+- `Instructions for Gemini` can be used for global chat preferences, but it does not apply inside Gems.
+- This repository's Gemini packaging files are in the `gemini/` folder.
+
 ## Skill Files
 
 - `.claude/skills/california-tax-authority/SKILL.md`
 - `.claude/skills/california-tax-authority/GUIDELINES.md`
 - `.claude/skills/california-tax-authority/references/authority-framework.md`
 - `.claude/skills/california-tax-authority/examples/prompt-examples.md`
+
+## Gemini Packaging Files
+
+- `gemini/GEM_INSTRUCTIONS.md`
+- `gemini/california-tax-authority-gemini-knowledge.zip`
+- `gemini/knowledge/01_SKILL.md`
+- `gemini/knowledge/02_GUIDELINES.md`
+- `gemini/knowledge/03_AUTHORITY_FRAMEWORK.md`
+- `gemini/knowledge/04_PROMPT_EXAMPLES.md`
+- `gemini/UPLOAD_TO_GEM.md`
 
 ## Closing Note
 Do you want a SOC2-compliant, BlueJ-level California + Federal tax research engine? Reach out to `support@wesley-ai.co`
