@@ -26,29 +26,10 @@ Visual comparison:
 <summary><strong>Open Before Raw Sample</strong></summary>
 
 ```text
-This is a nuanced area of California tax law, and the answer is generally no - but with important caveats.
-
-The Core Rule: Where You Perform the Work
-California taxes income based on where the services are physically performed, not where the client is located. If you are a bona fide Nevada resident and perform 100% of your work from Nevada, that income is generally not California-source income and is not subject to California income tax.
-
-What Makes This Tricky
-1. You Must Be a True Nevada Resident
-California's FTB is aggressive about residency audits. They look at day count, closest connections, and domicile facts.
-
-2. Any Work Performed in California Is Taxable
-If you physically work in California (meetings, client visits), those days can create CA-source income.
-
-3. Market-Based vs Cost-of-Performance Confusion
-Service sourcing and other income categories can follow different rules.
-
-4. Pass-Through Entity Income
-K-1 income from CA entities may still be California-source.
-
-Practical Steps
-- Establish Nevada domicile evidence
-- Keep daily work-location records
-- Avoid performing services while physically in California
-- File Form 540NR when needed
+Generally no - but with caveats.
+Core rule emphasized physical work location (Nevada).
+Main focus: residency proof, CA travel days, and documentation.
+Result style: readable, but can be over-confident when authority is shifting.
 ```
 
 </details>
@@ -57,27 +38,48 @@ Practical Steps
 <summary><strong>Open After Raw Sample</strong></summary>
 
 ```text
-Now let me do the required current-authority sweep before answering. This answer involves a very recent published appellate court decision - Garcia-Rojas v. FTB, decided May 1, 2026 - that directly changes the landscape.
+Uses a current-authority sweep before final conclusion.
+Highlights Garcia-Rojas (May 1, 2026) and its limits.
+Keeps risk framing: not a simple yes/no, facts + posture matter.
+Result style: better authority discipline, but can become verbose.
+```
 
-Bottom Line
-Probably not under the theory California previously relied on - but the issue is not fully settled.
+</details>
 
-A California Court of Appeal decision issued just 10 days ago (Garcia-Rojas v. FTB, May 1, 2026) rejected the administrative rule the FTB and OTA had used since 2019 to tax nonresident sole proprietors on income from California clients. Under that ruling, Nevada-only physical performance is a strong argument against California tax. However, the court left open whether FTB can tax under a different legal theory.
+## Cross-Model Benchmark (Single Prompt Snapshot)
 
-Quick Read (3 Key Points)
-- FTB previously relied on Bindley (OTA precedential) unitary-business framing.
-- The Court of Appeal found that reasoning unconvincing on these facts.
-- The opinion left room for alternate FTB theories.
+Scope:
 
-What To Do Now
-- Confirm Nevada residency break
-- Track Garcia-Rojas status and FTB response
-- Keep records showing 100% Nevada performance
-- Consider protective filing posture with a CA tax professional
+- Single test prompt on California nonresident sole-proprietor sourcing (`Garcia-Rojas` scenario)
+- Snapshot date: `2026-05-11`
+- This is not a universal ranking across all tax questions
 
-Risk
-- Medium, improving but not low.
-- Outcome can shift if review/depublication occurs or alternative theory is adopted.
+| System | Current-authority handling | Authority discipline | Readability | Risk framing | Snapshot result |
+|---|---|---|---|---|---|
+| Gemini Pro | Medium | Medium | High | Medium | Solid summary; may miss deeper legal conflict handling |
+| GPT 5.5 Thinking | Medium | High | High | High | Strong structure; freshness depends on case sweep quality |
+| BlueJ | Low-Medium | Medium | Medium | Low-Medium | Can be decisive, but may overstate one theory |
+| Claude (without skill) | Medium | Medium | High | Medium | Clear for general users; can under-handle shifting authority |
+| Claude (with this skill) | High | High | High | High | Best balance on this prompt (freshness + authority + practical format) |
+
+<details>
+<summary><strong>Open Short Excerpts by System</strong></summary>
+
+```text
+Gemini Pro:
+"Generally not simply because clients are in California, but this is a newly shifting area."
+
+GPT 5.5 Thinking:
+"W-2 wages are sourced by where physically worked; 1099/Schedule C often by customer benefit."
+
+BlueJ:
+"Generally not California-source if 100% performed in Nevada." (physical-performance heavy)
+
+Claude without skill:
+"Generally no — but with important caveats." (good readability, weaker conflict handling)
+
+Claude with skill:
+"Filing-risk question; run current-authority sweep; separate residency from sourcing."
 ```
 
 </details>
