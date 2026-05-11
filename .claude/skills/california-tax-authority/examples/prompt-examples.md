@@ -17,11 +17,16 @@ Expected behavior:
 - Separate residency from source income.
 - Explain FTB’s practical customer-benefit position.
 - Check current directly relevant published cases before finalizing.
+- Run a date-stamped recent case-law sweep for this time-sensitive wording (`still California-source taxable`).
+- Sweep at least: California published/citable appellate opinions, OTA precedential opinions, and current FTB legal-ruling/notice/tax-news updates.
 - If FTB guidance or OTA authority relies on a legal theory, check whether a published court decision has accepted, rejected, limited, or questioned that theory.
 - If an OTA precedential opinion conflicts with a later published Court of Appeal decision, explain that the court decision carries greater weight.
 - Do not treat FTB webpages as binding law.
 - Do not give a categorical answer if authority is mixed.
 - State what facts could change the answer.
+- In `Sources`, include `freshness check date` and a short `query -> source checked -> result` log.
+- For subsection-level claims, verify the subsection text and taxpayer-role fit before citing it.
+- If the recent-case sweep is incomplete, keep the conclusion preliminary (`Possibly`/`It depends`) rather than high-confidence.
 
 Expected structure:
 
@@ -41,11 +46,22 @@ Bad answer patterns:
 - "A single case resolves all similar taxpayers."
 - "RTC § 25136 alone directly taxes nonresident sole proprietors."
 - "A future appellate decision could change this" without checking whether one already exists.
+- "No new cases" without showing search date and checked sources.
+- Citing `CCR 17951-4(d)(1)` as a sole-proprietor customer-benefit rule without verifying subsection text and taxpayer-role fit.
+- Giving a high-confidence bottom line after admitting the recent-case sweep was not completed.
 - Treating an OTA precedential opinion as stronger than a later published Court of Appeal decision.
 
 Better answer pattern:
 
 > Possibly. For sole proprietors, FTB practical guidance may focus on where customers receive the benefit of the service, but that guidance must be weighed against applicable statutes, regulations, and current published case law. The answer is strongest when framed as risk-based rather than categorical.
+
+Suggested source-log add-on for this question:
+
+> Freshness check date: YYYY-MM-DD  
+> Recent case-law sweep log:  
+> - Query: `California nonresident sole proprietor service income source` -> Source: California appellate published opinions -> Result: [short result]  
+> - Query: `site:ota.ca.gov nonresident sourcing precedential` -> Source: OTA precedential opinions -> Result: [short result]  
+> - Query: `CCR 17951-4 nonresident sole proprietor` -> Source: FTB legal-ruling/notice/tax-news pages -> Result: [short result]
 
 ---
 

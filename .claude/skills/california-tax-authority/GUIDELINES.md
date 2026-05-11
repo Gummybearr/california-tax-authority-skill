@@ -91,6 +91,35 @@ Before finalizing a filing-position answer, check whether there is current, dire
 
 If agency guidance and higher authority conflict, explain the conflict and risk. Do not treat either side as automatically dispositive unless the authority supports that.
 
+## 6A) Time-Sensitive Question Rule
+
+For wording like `still taxable`, `currently`, `latest`, or `has this changed`, require a date-stamped recent case-law sweep before finalizing.
+
+Minimum sweep:
+
+- California published/citable appellate opinions
+- OTA current-year + precedential opinions
+- FTB legal-ruling, notice, and tax-news update pages
+
+For nonresident sole-proprietor sourcing, run targeted queries (for example `CCR 17951-4`, `RTC 25136`, `customer benefit`, `nonresident sole proprietor`).
+
+In the final `Sources` section, include:
+
+- `freshness check date`
+- short `query -> source checked -> result` log
+
+If that sweep is incomplete, do not provide a high-confidence filing-position conclusion.
+
+## 6B) Pinpoint Citation Rule
+
+When citing subsection-level authority:
+
+- verify the subsection text
+- verify taxpayer-role fit
+- avoid citing a partnership subsection as if it controls sole-proprietor facts
+
+If pinpoint text is not verified from a reliable source, label it as a research lead and avoid presenting it as controlling support.
+
 ## 7) How to Use
 
 Example triggers:

@@ -87,6 +87,72 @@ Before saying no published appellate authority exists, check current published c
 
 Do not hardcode a case into a categorical rule.
 
+## 3A) Date-Stamped Recent Case-Law Sweep
+
+Run this sweep when the user asks a time-sensitive question, including:
+
+- `still taxable`
+- `currently`
+- `latest`
+- `as of now`
+- `has this changed`
+
+Minimum sweep scope:
+
+1. California appellate published/citable opinions (Supreme Court and Court of Appeal).
+2. OTA opinions pages, including current-year opinions and all precedential franchise/income opinions.
+3. FTB legal-ruling, notice, and tax-news update pages for sourcing-rule changes.
+
+Minimum nonresident sole-proprietor sourcing query set:
+
+- `California nonresident sole proprietor service income source`
+- `CCR 17951-4 nonresident sole proprietor`
+- `customer benefit California source income`
+- `RTC 25136 nonresident services California`
+- `site:ota.ca.gov nonresident sourcing precedential`
+- `Franchise Tax Board California Court of Appeal source income`
+
+For each candidate authority, verify:
+
+- decision date
+- publication / precedential status
+- review-granted, depublished, modified, superseded, or withdrawn status
+- taxpayer-role fit
+- issue fit
+
+If no newer directly on-point published case is found, state:
+
+> As of [YYYY-MM-DD], no newer directly on-point published California appellate opinion was identified in the sources checked below.
+
+No-sweep, no-final rule:
+
+- If the required time-sensitive sweep is not completed, do not give a high-confidence filing-position conclusion.
+- Use preliminary framing and clearly flag that the current-authority check is incomplete.
+
+For time-sensitive questions, include a short search log in `Sources`:
+
+- `freshness check date`
+- `query -> source checked -> result`
+
+## 3B) Pinpoint Citation Verification
+
+Before citing subsection-level rules:
+
+- confirm subsection text
+- confirm taxpayer-role fit
+- confirm current status for the tax year
+
+Do not cite a subsection that governs a different taxpayer role as if it directly governs the user’s facts.
+
+For nonresident sole proprietor sourcing:
+
+- verify whether the proposition is actually in `CCR section 17951-4` for sole proprietors versus in `CCR section 25136-2` service-receipt assignment rules incorporated through apportionment rules
+- do not rely on an unverified subsection citation
+
+If subsection text is not verified, label:
+
+> Pinpoint not verified; treated as research lead only.
+
 ## 4) Direct Case Override Rule
 
 When current agency guidance, FTB scenario guidance, or an administrative decision relies on a legal theory, check whether a published court decision has accepted, rejected, limited, or questioned that theory.
@@ -351,6 +417,9 @@ Avoid these errors:
 - saying “California clients = California-source income” without analyzing where the benefit is received
 - ignoring recent published authority that may limit agency guidance
 - saying no published appellate authority exists without checking current cases on nonresident sourcing, sole proprietors, independent contractors, § 17951-4, unitary business, market sourcing, and customer-benefit sourcing
+- saying no newer authority exists without a date-stamped recent case-law sweep
+- citing subsection-level rules without verifying subsection text and taxpayer-role fit
+- using a year-specific form PDF as the only source for current regulation text
 - describing FTB guidance as settled law when the legal theory is disputed
 - making broad refund or penalty claims without checking limitations periods and procedural posture
 - stating that a future appellate decision could change the answer without checking whether one already exists

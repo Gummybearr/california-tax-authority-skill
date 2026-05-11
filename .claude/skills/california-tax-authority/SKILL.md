@@ -148,6 +148,70 @@ Before saying no published appellate authority exists, check current cases using
 
 If recent higher authority conflicts with agency guidance, explain both. Do not overstate either.
 
+### 3A. Run a date-stamped recent case-law sweep for time-sensitive questions
+
+This step is mandatory when the question includes terms such as:
+
+- `still`
+- `currently`
+- `latest`
+- `as of now`
+- `has this changed`
+- `can I rely on this now`
+
+Minimum sweep:
+
+1. California appellate published/citable opinions (Supreme Court and Court of Appeal).
+2. OTA opinions pages, including current-year and all precedential franchise/income opinions.
+3. Current FTB legal-ruling, notice, and tax-news update pages for sourcing-rule changes.
+
+Minimum nonresident sole-proprietor sourcing query set:
+
+- `California nonresident sole proprietor service income source`
+- `CCR 17951-4 nonresident sole proprietor`
+- `customer benefit California source income`
+- `RTC 25136 nonresident services California`
+- `site:ota.ca.gov nonresident sourcing precedential`
+- `Franchise Tax Board California Court of Appeal source income`
+
+For each candidate authority, verify:
+
+- decision date
+- publication / precedential status
+- current status (review granted, depublished, modified, superseded, withdrawn)
+- taxpayer-role match (W-2 vs sole proprietor vs pass-through)
+- issue match (service sourcing vs other sourcing contexts)
+
+If no newer directly on-point published case is found, state:
+
+> As of [YYYY-MM-DD], no newer directly on-point published California appellate opinion was identified in the sources checked below.
+
+No-sweep, no-final rule:
+
+- If this mandatory sweep is not completed, do not give a high-confidence filing-position conclusion.
+- Use preliminary framing (`Possibly` or `It depends`) and explicitly state that current-authority verification is incomplete.
+
+### 3B. Verify pinpoint citations before using subsection-level claims
+
+If citing a subsection (for example, `17951-4(d)(1)`), verify the subsection text first.
+
+For each subsection-level claim, confirm:
+
+- the subsection text actually contains the stated rule
+- the subsection applies to the taxpayer role at issue
+- the subsection is current for the tax year being analyzed
+
+For nonresident sole proprietors, do not cite partnership subsections as sole-proprietor rules.
+
+Example guardrail:
+
+- Do not attribute a sole-proprietor customer-benefit rule to `CCR section 17951-4(d)(1)` without verifying that subsection text and taxpayer-role fit.
+
+If subsection text cannot be verified from a reliable source, either:
+
+- cite at the section level with caution language, or
+- treat the point as a research lead only.
+
 ### 4. Build the authority stack
 
 Use `references/authority-framework.md`.
@@ -378,6 +442,16 @@ For each source, include:
 - URL
 - why it matters
 
+For date-sensitive questions, also include:
+
+- freshness check date (`YYYY-MM-DD`)
+- recent case-law sweep log (`query -> source checked -> result`)
+
+For subsection-level claims, also include:
+
+- pinpoint citation (`section/subsection`)
+- one-line verification note (`text confirmed` or `not confirmed; treated as lead`)
+
 ## Output Rules
 
 - Do not invent authorities.
@@ -389,6 +463,9 @@ For each source, include:
 - Do not overread cases.
 - Do not ignore recent directly relevant authority.
 - Do not say no published authority exists without checking current cases.
+- Do not say no newer authority exists without a date-stamped recent case-law sweep.
+- Do not cite subsection-level rules without verifying the subsection text and taxpayer-role fit.
+- Do not use a year-specific form PDF as the only support for current regulation text.
 - Do not bury the answer under the authority stack.
 - Do not treat an agency position as the final answer when published authority may limit that position.
 - Do not treat a single case as resolving all similar fact patterns unless the holding actually does so.
@@ -421,6 +498,10 @@ If agency guidance conflicts with higher authority:
 If authority is mixed:
 
 > This is a filing-risk question, not a simple yes/no question. The answer depends on facts, current authority, and how the agency theory applies to this taxpayer.
+
+If tooling or access limits prevent a current-case sweep:
+
+> I could not fully verify recent published cases in this run. Treat this as a preliminary research draft until current case status is confirmed.
 
 ## Resource Usage
 
