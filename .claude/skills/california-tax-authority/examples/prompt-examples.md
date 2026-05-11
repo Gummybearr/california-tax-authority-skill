@@ -1,5 +1,23 @@
 # Prompt Examples
 
+## Readability Upgrade Pattern (General Users)
+
+Use this pattern when the user asks a practical tax question and does not request a legal memo.
+
+Old pattern to avoid:
+
+- long legal explanation first
+- practical recommendation buried at the end
+
+Required upgrade:
+
+1. `Bottom Line` (1-2 sentences)
+2. `Quick Read (3 Key Points)` (exactly 3 bullets)
+3. `What To Do Now` (3-5 action bullets)
+4. then legal detail (`Why`, `Risk`, `Authorities`, `Sources`)
+
+This makes the difference visible even to non-lawyers.
+
 ## California Nonresident Sole Proprietor Sourcing
 
 Question:
@@ -27,16 +45,18 @@ Expected behavior:
 - In `Sources`, include `freshness check date` and a short `query -> source checked -> result` log.
 - For subsection-level claims, verify the subsection text and taxpayer-role fit before citing it.
 - If the recent-case sweep is incomplete, keep the conclusion preliminary (`Possibly`/`It depends`) rather than high-confidence.
+- Make the first screen readable for non-lawyers: short paragraph + 3-key-point summary + action checklist.
 
 Expected structure:
 
 1. Bottom Line
-2. Why
-3. Authorities
-4. Application
-5. Filing Guidance
+2. Quick Read (3 Key Points)
+3. What This Means for You
+4. What To Do Now
+5. Why
 6. Risk
-7. Sources
+7. Authorities (Most Important Only)
+8. Sources
 
 Bad answer patterns:
 
@@ -50,10 +70,23 @@ Bad answer patterns:
 - Citing `CCR 17951-4(d)(1)` as a sole-proprietor customer-benefit rule without verifying subsection text and taxpayer-role fit.
 - Giving a high-confidence bottom line after admitting the recent-case sweep was not completed.
 - Treating an OTA precedential opinion as stronger than a later published Court of Appeal decision.
+- Large dense legal paragraphs before giving a clear practical recommendation.
 
 Better answer pattern:
 
 > Possibly. For sole proprietors, FTB practical guidance may focus on where customers receive the benefit of the service, but that guidance must be weighed against applicable statutes, regulations, and current published case law. The answer is strongest when framed as risk-based rather than categorical.
+
+Suggested `Quick Read (3 Key Points)` example:
+
+> - FTB may still treat this as California-source income because your clients receive the benefit in California.  
+> - You still have a taxpayer-side argument because all services were physically performed in Nevada.  
+> - Your residency documentation and the latest appellate/OTA authority will most affect the filing outcome.
+
+Suggested `What To Do Now` example:
+
+> - Save proof of Nevada domicile change (license, voter registration, lease, banking).  
+> - Keep work logs proving services were performed outside California.  
+> - Review filing posture (report vs protective position) with a California CPA/tax attorney before filing.
 
 Suggested source-log add-on for this question:
 

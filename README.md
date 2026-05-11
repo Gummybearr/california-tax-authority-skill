@@ -13,6 +13,7 @@ This repository contains a reusable skill for authority-weighted California tax 
 - Forces nonprecedential labeling and confidence guardrails
 - Forces a date-stamped recent case-law sweep for time-sensitive questions (e.g., "still taxable?", "latest/current")
 - Forces subsection-level pinpoint verification (text + taxpayer-role fit) before using detailed citation claims
+- Uses a general-reader-first output format (bottom line + 3 key points + action checklist before deep legal detail)
 - Requires an `External Sources (Links)` section in final answers
 - Supports Federal + California domains (FTB, CDTFA, EDD, BOE, local tax, entity compliance)
 
@@ -26,13 +27,14 @@ This repository contains a reusable skill for authority-weighted California tax 
 ## Output Contract Highlights
 
 - Final answers must include:
-  - `Issue`
-  - `Controlling Authorities`
-  - `Analysis`
-  - `Practical Filing Guidance`
-  - `Nonprecedential / Research Leads`
-  - `Risk and Review`
-  - `External Sources (Links)`
+  - `Bottom Line`
+  - `Quick Read (3 Key Points)`
+  - `What This Means for You`
+  - `What To Do Now`
+  - `Why`
+  - `Risk`
+  - `Authorities (Most Important Only)`
+  - `Sources`
 - Every cited authority used for conclusions should map to at least one clickable link.
 - Official sources are preferred whenever available.
 

@@ -45,6 +45,21 @@ The skill enforces:
   - commentary
 - Official-source-first citation links.
 - Narrow case reading: state what the authority actually holds and what it leaves open.
+- General-reader-first formatting: short opening, 3-key-point summary, and action checklist before deep legal detail.
+
+## 3A) Readability Standard (General User)
+
+Default audience is a non-lawyer.
+
+For ordinary user questions, the answer should be skimmable in under 30 seconds:
+
+- `Bottom Line` in 1-2 sentences
+- `Quick Read (3 Key Points)` with exactly 3 short bullets
+- `What To Do Now` with 3-5 concrete actions
+
+Then provide legal depth (`Why`, `Risk`, `Authorities`, `Sources`).
+
+Avoid long dense paragraphs when bullets are clearer.
 
 ## 4) High-Risk California Issues
 

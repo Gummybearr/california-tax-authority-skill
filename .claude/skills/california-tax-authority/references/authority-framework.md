@@ -492,3 +492,14 @@ Use links in this order:
 If no reliable public link exists, label the item:
 
 > No public verifiable link located; treated as research lead only.
+
+## 19) Reader-First Presentation
+
+Accuracy requirements stay the same, but present answers so a non-lawyer can act on them:
+
+1. Bottom line in 1-2 sentences.
+2. Three short key points.
+3. A concrete next-step checklist.
+4. Then legal detail and source citations.
+
+Do not force users through long legal discussion before telling them the practical takeaway.
