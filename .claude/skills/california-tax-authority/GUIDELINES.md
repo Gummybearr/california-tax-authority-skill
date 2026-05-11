@@ -61,6 +61,41 @@ Then provide legal depth (`Why`, `Risk`, `Authorities`, `Sources`).
 
 Avoid long dense paragraphs when bullets are clearer.
 
+Default mode is compact:
+
+- target 180-260 words before `Sources`
+- hard cap about 300 words before `Sources`
+- 3-4 source links max unless user asks for deep research
+
+Only expand to full detail when the user asks for memo-level depth.
+
+## 3B) Question-Type Router (General Quality)
+
+Select one output route based on user intent:
+
+- practical yes/no
+- compare/rank options
+- filing/process steps
+- authority reliability check
+- formal memo
+
+Do not combine multiple full routes in one answer.
+
+## 3C) Final Concision Gate
+
+Before sending:
+
+- answer in first 1-2 sentences
+- remove repeated caveats
+- keep assumptions to 3 or fewer
+- keep actionable bullets to 3-5
+- trim legal detail before expanding length
+- use precise case-effect wording (`rejected/limited`) unless an opinion expressly says `overruled`
+- remove process narration (`now I'll run...`, `I have enough to answer...`)
+- keep only one disclaimer block in compact answers
+- if a case is central to the conclusion, include at least one official court or OTA link
+- avoid commentary-only support for dispositive points when official sources are available
+
 ## 4) High-Risk California Issues
 
 Apply extra care to:
@@ -117,6 +152,15 @@ Minimum sweep:
 - FTB legal-ruling, notice, and tax-news update pages
 
 For nonresident sole-proprietor sourcing, run targeted queries (for example `CCR 17951-4`, `RTC 25136`, `customer benefit`, `nonresident sole proprietor`).
+
+Require current-year coverage:
+
+- derive the query year from the answer's freshness/as-of date
+- include at least one current-year query and one prior-year query
+- do not use a year range ending before the current year
+- check California Courts published/citable opinions directly before saying no appellate case exists
+- include one query with the agency name (`Franchise Tax Board`) plus current year on California Courts published/citable opinions
+- if uncertain, run `current-1/current/current+1` plus one non-year-bounded official court query
 
 In the final `Sources` section, include:
 

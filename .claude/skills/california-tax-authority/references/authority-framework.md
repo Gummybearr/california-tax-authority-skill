@@ -134,6 +134,14 @@ For time-sensitive questions, include a short search log in `Sources`:
 - `freshness check date`
 - `query -> source checked -> result`
 
+For California tax disputes, include one California Courts query that combines:
+
+- agency name (`Franchise Tax Board`)
+- current year
+- published/citable opinions source
+
+The year must match the freshness/as-of date shown in the answer.
+
 ## 3B) Pinpoint Citation Verification
 
 Before citing subsection-level rules:
@@ -167,6 +175,12 @@ If a published court decision directly addresses the same theory:
 - do not describe the agency position as the controlling answer unless the court decision supports it
 
 Do not treat a single court decision as resolving every similar fact pattern unless the holding actually does so.
+
+Language precision rule:
+
+- avoid `directly overruled` unless the opinion expressly overrules the prior decision
+- prefer `rejected/limited/declined to follow` when describing effect on OTA or agency reasoning
+- if the court leaves alternative theories open, state that
 
 ## 5) California Income / Franchise Tax Ladder
 
@@ -489,6 +503,8 @@ Use links in this order:
 4. reputable open legal publisher
 5. commentary only as secondary support
 
+If a case is used as central support, include at least one official case source (court or OTA) in addition to any commentary.
+
 If no reliable public link exists, label the item:
 
 > No public verifiable link located; treated as research lead only.
@@ -503,3 +519,9 @@ Accuracy requirements stay the same, but present answers so a non-lawyer can act
 4. Then legal detail and source citations.
 
 Do not force users through long legal discussion before telling them the practical takeaway.
+Use one compact route matched to user intent (practical yes/no, compare/rank, filing process, authority check, or memo).
+
+Default compact target for practical questions:
+
+- 180-260 words before sources
+- hard cap about 300 words before sources unless detail is requested

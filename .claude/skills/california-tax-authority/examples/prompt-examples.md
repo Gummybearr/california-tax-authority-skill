@@ -18,6 +18,46 @@ Required upgrade:
 
 This makes the difference visible even to non-lawyers.
 
+Default compact target:
+
+- 180-260 words before `Sources`
+- hard cap about 300 words before `Sources`
+- 3-4 source links max
+
+## Compact Route Templates (All Question Types)
+
+Use one route only.
+
+### Practical yes/no
+
+- `Bottom Line`
+- `Quick Read (3 Key Points)`
+- `What To Do Now`
+- `Risk`
+- `Sources`
+
+### Compare / rank options
+
+- `Bottom Line`
+- `Top Differences` (3-5 bullets)
+- `Recommendation`
+- `Sources`
+
+### Filing/process question
+
+- `Bottom Line`
+- `Steps`
+- `Forms and Deadlines`
+- `Risk`
+- `Sources`
+
+### Authority reliability check
+
+- `Bottom Line`
+- `Holding and Limits`
+- `Use / Do Not Use`
+- `Sources`
+
 ## California Nonresident Sole Proprietor Sourcing
 
 Question:
@@ -67,10 +107,19 @@ Bad answer patterns:
 - "RTC § 25136 alone directly taxes nonresident sole proprietors."
 - "A future appellate decision could change this" without checking whether one already exists.
 - "No new cases" without showing search date and checked sources.
+- "No appellate cases found" after running only 2022-2025 queries and skipping current-year California Courts published/citable search.
+- "No appellate cases found" without running an agency-name query (`Franchise Tax Board` + current year) on California Courts published/citable opinions.
+- Sweep freshness date says 2026 but queries only cover up to 2025.
 - Citing `CCR 17951-4(d)(1)` as a sole-proprietor customer-benefit rule without verifying subsection text and taxpayer-role fit.
 - Giving a high-confidence bottom line after admitting the recent-case sweep was not completed.
 - Treating an OTA precedential opinion as stronger than a later published Court of Appeal decision.
 - Large dense legal paragraphs before giving a clear practical recommendation.
+- Repeating the same disclaimer multiple times.
+- 600+ word answers for a practical yes/no question.
+- Saying a case `directly overruled` prior administrative precedent without explicit language in the opinion.
+- Starting with process narration (`Now I'll run the sweep...`, `I have enough to answer`).
+- Using hype wording (`landmark`, `dramatic`) instead of precise legal effect language.
+- Using only commentary links for key cases while omitting official court/OTA links.
 
 Better answer pattern:
 
@@ -87,6 +136,14 @@ Suggested `What To Do Now` example:
 > - Save proof of Nevada domicile change (license, voter registration, lease, banking).  
 > - Keep work logs proving services were performed outside California.  
 > - Review filing posture (report vs protective position) with a California CPA/tax attorney before filing.
+
+Suggested compact answer skeleton:
+
+> Bottom Line: [1-2 sentences]  
+> Quick Read: [3 bullets]  
+> What To Do Now: [3-5 bullets]  
+> Risk: [2-4 bullets + one swing-fact line]  
+> Sources: [3-4 links]
 
 Suggested source-log add-on for this question:
 
